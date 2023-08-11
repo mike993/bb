@@ -1,0 +1,7 @@
+<svg width="1000" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <circle cx="50" cy="50" r="45" fill="green"          id="foo"/>
+
+  <foreignObject width="1000" height="500">
+    <iframe xmlns="http://www.w3.org/1999/xhtml" src="https://webhook.site/7a161ae2-c8f8-41a9-96c4-888949fa5f82/frame"> </iframe>	
+  </foreignObject>
+</svg>
