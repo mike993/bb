@@ -1,0 +1,32 @@
+{
+  "response": {
+    "data": [
+      {
+        "text": "Question 1",
+        "body": "Answer 1"
+      },
+      {
+        "text": "Question 2",
+        "body": "Answer 2"
+      },
+      {
+        "text": "Question 3",
+        "body": "Answer 3",
+        "data": [
+          {
+            "text": "Sub-question 3.1",
+            "body": "Sub-answer 3.1"
+          },
+          {
+            "text": "Sub-question 3.2",
+            "body": "Sub-answer 3.2"
+          }
+        ]
+      },
+      {
+        "text": "Question 4",
+        "body": "Answer 4"
+      }
+    ]
+  }
+}
